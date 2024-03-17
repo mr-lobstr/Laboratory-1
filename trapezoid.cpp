@@ -1,4 +1,4 @@
-#include "geometric_figures.h"
+#include <cmath>
 
 double trapezoidPerimeter (double topBase, double bottomBase, double leftRib, double rightRib)
 {

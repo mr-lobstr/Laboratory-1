@@ -17,4 +17,12 @@ int main()
 	cout << "The area of the rectangle is equal to: " << rectangleArea(5, 8);
 	cout << endl;
 	cout << "The diagonal of the rectangle is equal to: " << rectangleDiagonal(5, 8);
+
+	//Вывод треугольника
+	double sideA, sideB, sideC;
+	cin >> sideA >> sideB >> sideC;
+	cout << triangleEx(sideA, sideB, sideC) << endl
+		<< triangleP(sideA, sideB, sideC) << endl
+		<< isTriangleRavnobedr(sideA, sideB, sideC) << endl
+		<< triangleS(sideA, sideB, sideC);
 }

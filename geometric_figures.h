@@ -15,3 +15,13 @@ double rectanglePerimeter(double sideOne, double sideTwo);
 double rectangleArea(double sideOne, double sideTwo);
 
 double rectangleDiagonal(double sideOne, double sideTwo);
+
+//Периметр, площадь, существование и вид треугольника
+
+bool triangleEx(double sideA, double sideB, double sideC);
+
+double triangleP(double sideA, double sideB, double sideC);
+
+bool isTriangleRavnobedr(double sideA, double sideB, double sideC);
+
+float triangleS(double sideA, double sideB, double sideC);

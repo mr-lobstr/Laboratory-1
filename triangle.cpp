@@ -1,7 +1,7 @@
 ﻿#include <cmath>
 #include <iostream>
 using namespace std;
-
+//комментарий для проверки
 bool triangleEx(double sideA, double sideB, double sideC)
 {
 

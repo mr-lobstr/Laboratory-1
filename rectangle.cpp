@@ -1,5 +1,5 @@
 ﻿#include <geometric_figures.h>
-
+//изменения
 double rectanglePerimeter(double sideOne, double sideTwo) {
     return (sideOne + sideTwo) * 2;
 }
